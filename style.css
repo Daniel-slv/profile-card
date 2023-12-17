@@ -107,7 +107,7 @@ p.summary{
 .technologies{
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 12px;
     flex-wrap: wrap;
     margin: 24px 0;
