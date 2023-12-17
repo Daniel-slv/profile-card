@@ -2,10 +2,11 @@
 
 body{
     --font: 'Poppins', sans-serif;
-    --main-color: #01163a;
+    --main-color: #072d70;
     --secondary-color: #00bd5e;
     --tertiary-color: #717777;
-    --page-background: linear-gradient(#01163a, #00030e);
+    --hover-color: #00102c;
+    --page-background: linear-gradient(#072d70, #00102c);
     --card-background: #f8f8f8;
     --technologies-background: #b5c5e0;
     --image-size: 200px;
@@ -71,13 +72,14 @@ dl{
     justify-content: space-around;
     margin-top: 24px;
     gap: 12px;
+    color: var(--tertiary-color);
 }
 
 dd{
     margin: 0;
     font-size: 1.25rem;
     font-weight: bold;
-    color: var(--primary);
+    color: var(--main-color);
 }
 
 dl>div{
@@ -125,12 +127,12 @@ p.summary{
     border: solid 2px;
     border-color: var(--secondary-color);
     font-family: var(--font);
-    color: var(--secondary-color);
+    color: var(--card-background);
     background: var(--main-color);
 }
 
 .follow:hover{
-    background-color: #00030e;
+    background-color: var(--hover-color);
 }
 
 .message{
