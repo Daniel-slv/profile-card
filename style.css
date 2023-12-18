@@ -107,8 +107,8 @@ p.summary{
 .technologies{
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 12px;
+    justify-content:center;
+    gap: 14px;
     flex-wrap: wrap;
     margin: 24px 0;
     padding: 0;
